@@ -1,0 +1,11 @@
+duration: 60
+timePos: 'topRight'
+backgroundFile: 'background.png'
+spriteFile: 'twitter.bmp'
+spritePos: [0,0]
+
+dataURL: 'https://twitter.com/PixelCircuits'
+dataFilterAfter: '--normal js-tweet-text tweet-text" lang="en" data-aria-label-part="0">'
+dataFilterBefore: '</p>'
+dataFilterIndex: 0
+dataPos: [0,9]

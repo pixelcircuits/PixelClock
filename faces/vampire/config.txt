@@ -1,0 +1,5 @@
+duration: 60
+timePos: 'topRight'
+backgroundFile: 'background.png'
+spriteFile: 'vampire.png'
+spritePos: [-1,-3]

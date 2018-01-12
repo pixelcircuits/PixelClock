@@ -1,0 +1,6 @@
+duration: 60
+timePos: 'bottomLeft'
+backgroundFile: 'background.png'
+spriteFile: 'zombie.png'
+spritePos: [15,-4]
+animSpeed: 750

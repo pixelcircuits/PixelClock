@@ -1,0 +1,12 @@
+duration: 60
+timePos: 'topLeft'
+backgroundFile: 'background.png'
+spriteFile: 'youtube.bmp'
+spritePos: [15,0]
+
+dataURL: 'https://www.youtube.com/channel/UCdJdEguB1F1CiYe7OEi3SBg'
+dataFilterAfter: 'subscribers">'
+dataFilterBefore: '</span>'
+dataType: 'number'
+dataAlign: 'right'
+dataPos: [32,11]

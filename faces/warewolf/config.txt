@@ -1,0 +1,6 @@
+duration: 60
+timePos: 'bottomRight'
+backgroundFile: 'background.png'
+spriteFile: 'warewolf.png'
+spritePos: [-1,-2]
+animSpeed: 300
