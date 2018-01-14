@@ -47,7 +47,7 @@ The Pixel Clock works great on even the most lightweight Raspberry Pi setup (Ras
 
 Refer to [this tutorial](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md) for a more in depth way of connecting to a wifi network, but the easiest way is to directly edit the config file through the following commands.
 ```
-sudo nano /etc/rc.local
+sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 add
 ```
