@@ -21,7 +21,7 @@ Under ‘Preferences -> Raspberry Pi Configuration’, check enabled for SPI und
 Open a command prompt and enter the following commands to download and build the Pixel Clock. Refer to the configuration section for setting up the correct timezone and other basic options.
 ```
 sudo apt-get install wiringpi
-git clone https://github.com/circuitpixels/PixelClock 
+git clone https://github.com/pixelcircuits/PixelClock 
 cd PixelClock
 make
 ```
