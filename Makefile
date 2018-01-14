@@ -29,6 +29,8 @@ $(TARGET): $(OBJECTS)
 $(BUILDDIR)/%.o : $(SOURCEDIR)/%.c
 	$(CC) -I$(INCDIR) $(CXXFLAGS) -c -o $@ $<
 
+$(shell mkdir -p $(BUILDDIR))
+
 clean:
 	rm -f $(TARGET)
 	rm -f $(BUILDDIR)/*.o
