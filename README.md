@@ -31,8 +31,13 @@ make
 To run the Pixel Clock simply run the executable build in the project folder. The Pixel Clock can be set to run on boot by opening a command prompt and editing the rc.local file.
 ```
 sudo nano /etc/rc.local
-add sudo /home/pi/PixelClock & and press Ctrl+X then Y, to save
 ```
+add
+```
+cd /home/pi/PixelClock
+sudo ./PixelClock & 
+```
+and press Ctrl+X then Y, to save
 
 ## Setup (Raspbian Lite with Read-Only Mode)
 
@@ -87,7 +92,8 @@ sudo nano /etc/rc.local
 ```
 add 
 ```
-sudo /home/pi/PixelClock & 
+cd /home/pi/PixelClock
+sudo ./PixelClock & 
 ```
 and press Ctrl+X then Y, to save.
     
