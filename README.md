@@ -28,16 +28,10 @@ make
 
 **4. Run on Boot**
 
-To run the Pixel Clock simply run the executable build in the project folder. The Pixel Clock can be set to run on boot by opening a command prompt and editing the rc.local file.
+To run the Pixel Clock simply run the executable build in the project folder. To run on boot, open the file explorer and type '/home/pi/.config/lxsession/LXDE-pi' in the address bar. Then open the file 'autostart' and add the following line.
 ```
-sudo nano /etc/rc.local
+@bash /home/pi/PixelClock/Start.sh
 ```
-add
-```
-cd /home/pi/PixelClock
-sudo ./PixelClock & 
-```
-and press Ctrl+X then Y, to save
 
 ## Setup (Raspbian Lite with Read-Only Mode)
 
