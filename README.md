@@ -2,8 +2,6 @@
 The Pixel Clock is a small program that simply displays the time along with different pixel art and information grabbed from the web. It was written to run on the Raspberry Pi connected to a Pixel Display. The different looks of the clock are organized into folders and referred to as ‘faces’. The faces can be created, deleted or modified according to different preferences.
 
 * [Hackaday](https://hackaday.io/project/28447-pixel-clock) - Project Page
-* [Pixel Display](https://www.tindie.com/products/11311/) - Tindie
-* [Pixel Display](http://www.pixelcircuits.com/) - Website
 
 ## Setup (Raspbian Desktop)
 The Pixel Clock has only been tested on the Raspbian OS (2017-09-07) and should work with any version of the Raspberry Pi. The following steps are for the full desktop version of Raspbian. Refer to [this tutorial](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) first for getting Raspbian OS up and running. For a read-only mode with Raspbian lite (to avoid SD card corruption when pulling the power), refer to the below section for setup instead.
